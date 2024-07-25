@@ -12,29 +12,36 @@ Cypress
 ## Installation
 
 Clone the repository:
-git clone https://github.com/your-username/check24-cypress-tests.git
+
+git clone https://github.com/kanmaniashokqa/cypress-reports.git
 
 Navigate to the project directory:
-cd check24-cypress-tests
 
-Install the dependencies:
+cd cypress-reports
+
+## Install the dependencies:
+
 npm install cypress --save-dev
+
 npm install --save-dev cypress cypress-mochawesome-reporter mochawesome mochawesome-merge mochawesome-report-generator
 
 
 ## Running the Tests
-You can run the tests in several ways:
-Run all tests headlessly
-To run all tests in headless mode:
+
+Run all tests headlessly: To run all tests in headless mode:
+
 npm run test
-Run tests in headed mode
-To run tests with the Cypress Test Runner:
+
+Run tests in headed mode: To run tests with the Cypress Test Runner:
+
 npm run cypress:open
+
 Run tests and generate Mochawesome report
-To run tests and generate a Mochawesome report:
-npm run test:report
+
+npm run test
+
 After running this command, you can find the HTML report in the cypress/reports directory.
-Configuration
+
 
 
 
