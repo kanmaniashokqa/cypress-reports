@@ -1,0 +1,8 @@
+# Cypress-specific ignores
+cypress/videos/
+cypress/screenshots/
+cypress/results/
+cypress/downloads/
+
+# Node.js dependencies
+node_modules/
